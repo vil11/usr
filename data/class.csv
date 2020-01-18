@@ -1,0 +1,7 @@
+ip | label       | type          |
+----------------------------------------------------------
+0 | medic      | supply      |
+2 | sapper     | supply      |
+3 | sentinel   | soldier      |
+5 | sniper      | soldier      |
+8 | trooper    | soldier      |

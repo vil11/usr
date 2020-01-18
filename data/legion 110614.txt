@@ -1,0 +1,132 @@
+badge| name              | rank     | type       | platoon
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+ GUERILLA:
+------------------------------------------------------------------------
+
+ 141.1.62 | Larry Sunders     | private  | radioman   | guerilla...связь позволяет очень далеко отходить от базы, вызывать авианалёт, камера со спутника
+ 141.1.93 | Timmy Justice     | private  | trooper    | guerilla...6-ствольный пулемет "механическое животное"
+ 141.20 | Archie Obrien     | private  | sapper     | guerilla...мина
+ 141.25 | Rick Sanchez      | private  | sniper     | guerilla...винтарь "игла" (0 - 120) с оптикой "бик" (корея 2757-2)
+ 141.39 | Danny Reynolds    | private  | sniper     | guerilla...винтарь "игла" (0 - 100) с оптикой "бик" (корея A2 H Gem)
+ 141.55 | Sam Davis         | sergeant | trooper    | guerilla...винтарь "гвоздь" с безымянной оптикой
+ 141.82 | Roderick Jenkins  | colonel  | trooper    | guerilla...джэкхаммер, крестовая граната
+
+------------------------------------------------------------------------
+ 224.2.1.23 | Brian Jones       | private  | trooper    | 
+ 224.2.1.37 | Peter Jones       | private  | trooper    | 
+ 224.2.1.43 | Jerry Sears       | private  | sniper     | 
+ 224.2.1.57 | Ben Smith         | private  | trooper    | 
+ 224.2.1.64 | James Shepherd    | private  | sentinel   | 
+ 224.2.1.71 | Ben Smith         | private  | trooper    | 
+ 224.2.1.80 | Toby Shepherd     | private  | llm        | 
+ 224.2.1.92 | Kenny Hinton      | private  | sentinel   | 
+ 224.2.2.20 | Russell Cooper    | private  | trooper    | 
+ 224.2.5.81 | Curtis Weber      | sergeant | sentinel   |  
+ 224.2.8.12 | Ed Bennett        | colonel  | llm        | 
+
+------------------------------------------------------------------------
+ 800.311....Adam Nelson.........prv.....sni..
+ 800.314....Jimmy Parton........prv.....hlm..
+ 800.315....Bobby Nesbitt.......prv.....trp..
+ 800.322....Tommy Green.........prv.....llm..
+ 800.338....David Gibson........prv.....llm..
+ 800.352....Bradley Henderson...srg.....llm..
+ 800.384....Frank Dumont........cln.....llm..
+
+
+---------------------------------------------------------------
+ REGS
+---------------------------------------------------------------
+	- every unit relates to a platoon
+	- badge is unique
+	- badge number (ip format) consists of: {platoon_id=3}.{health}.{attack}{unit_inside_number=2}
+	- every platoon contains: private,
+	- все солдаты обслужены медиками ?
+	- все рядовые обслужены сержантами ?
+	- каждый взвод содержит рядовых, сержантов, медиков, коммандующего офицера
+	- на каждое транспортное средство нужен инженер ?
+	- каждое транспортное средство закреплено за взводом
+	- в каждом взводе должны быть рядовые
+	- в каждом взводе должен быть офицер
+	- 
+	- [postponed] attributes:
+		exp номинал монеты * уровень звания
+		health
+		...
+		
+		- вес * 10 = стартовые хелсы
+		- скорость восстановления хелсов пропорционально званию
+			- private   = 0 per 10 steps
+			- sergeant  = 1 per 10 steps
+			- leutenant = 2 10 steps
+			- colonel   = 3 per 10 steps
+
+
+commandos
+swat
+guerilla
+navy
+
+
+---------------------------------------------------------------
+ NAMES QUEUE
+---------------------------------------------------------------
+Billy Turner
+Johnny Blue
+Hugo Lopez
+Fred Martins
+Dwayne Liddle
+Michael Keenan
+Josh Lincoln
+Charles Hester
+Anthony Robinson
+Dean Johnson
+Jeffery Smith
+Walter Herman
+Roger Howard
+Richard Watson
+Gregory Lankford
+Darrell Barrow
+Travis Armstrong
+Matthew Williams
+Ervin McBean
+Shawn Watts
+Gary Donovan
+Jared Knight
+George Coleman
+Kevin Edwards
+Mario Griffin
+Steven Elliot
+Lee Porter
+Dustin Reams
+Glen Harney
+Andrew Wallner
+Shane Elmore
+Bernard Cole
+Andres.Miller
+Roy Anderson
+Alan Jenkins
+Carl Adams
+Joseph Skinner
+William Witt
+Jeffrey Cook
+Brandon McQueen
+Dale Dawson
+Mark Ridgeway
+Dennis Milner
+Shawn West
+Aaron Vega
+Chris Collins
+Marvin Wallace
+Martin Thompson
+Patrick Berg
+Wesley Bone
+Scott Clark
+Derrick Brown
+Chester Nolan
+Nigel Murphy
+
+
+
